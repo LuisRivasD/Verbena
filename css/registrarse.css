@@ -1,0 +1,180 @@
+*{
+	font-family: Montserrat;
+}
+
+body{
+	margin: 0;
+}
+
+.background-login{
+	background: url('../img/img_verbena8.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 662px;
+}
+
+.div_cristal{
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+	box-sizing: border-box;
+	background: rgba(255,255,255,.1);
+	border-radius: 5px;
+	transition: .5s;
+}
+.div_login{
+	position: absolute;
+  top: 22em;
+	/* top: 53%; */
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 900px;
+  height: 450px;
+	box-sizing: border-box;
+	background: transparent;
+	background-position: center;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	transition: .5s;
+}
+
+.derecho, .izquierdo{
+  position: absolute;
+	transform: translate(-50%, -50%);
+	width: 450px;
+  height: 450px;
+}
+
+.derecho{
+	top: 50%;
+	left: 25%;
+  /* border: none;
+  border-right: 1px solid rgba(71, 71, 71,0.5); */
+  /* display: flex;
+  align-content: center;
+  align-items: center; */
+}
+
+.izquierdo{
+  padding-top: 60px;
+  padding-left: 40px;
+	top: 53%;
+	left: 75%;
+	/* border: none;
+  border-left: 1px solid rgba(71, 71, 71,0.5); */
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+
+.img_derecha{
+	margin-top: -95px;
+	width: 450px;
+}
+
+.derecho h3{
+	/* font-family: 'Gaegu', cursive; */
+	/* font-family: 'Gamja Flower', cursive; */
+	/* font-family: 'Black Han Sans', sans-serif; */
+	/* font-family: 'Jua', sans-serif; */
+	/* font-family: 'Righteous', cursive; */
+	/* font-family: 'Concert One', cursive; */
+	padding-top: 20px;
+	color: #262626;
+  font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.izquierdo h3{
+	/*font-family: 'Gaegu', cursive;*/
+	/* font-family: 'Gamja Flower', cursive; */
+	/* font-family: 'Black Han Sans', sans-serif; */
+	/* font-family: 'Jua', sans-serif; */
+	/* font-family: 'Righteous', cursive; */
+	/* font-family: 'Concert One', cursive; */
+  padding-top: 20px;
+  padding-bottom: 1.5em;
+	padding-right: 2em;
+  margin-top: -25px;
+	color: #262626;
+  font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.div_login input{
+	width: 100%;
+	margin-bottom: .8em;
+}
+
+.div_login input[type="text"],
+.div_login input[type="tel"],
+.div_login input[type="email"],
+.div_login input[type="password"]{
+	border: none;
+	border-bottom: 2px solid #666666;
+	outline: none;
+  float: left;
+  width: 200px;
+	height: 30px;
+	color: #262626;
+	background: transparent;
+	font-size: 14px;
+	padding-left: 5px;
+  margin-right: 5px;
+	box-sizing: border-box;
+}
+
+#dir{
+  width: 405px;
+}
+
+.div_login input[type="text"]:focus,
+.div_login input[type="tel"]:focus,
+.div_login input[type="email"]:focus,
+.div_login input[type="password"]:focus{
+  border-bottom: 2px solid #00a3ff;
+}
+
+.placeholder::placeholder
+{
+	color: rgba(0,0,0,.5);
+}
+
+.input_box{
+	position: relative;
+}
+
+
+.div_login input[type="submit"]{
+	border: none;
+	outline: none;
+  width: 300px;
+	height: 40px;
+	font-size: 16px;
+	background: #ed292a;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+  top: 90%;
+  margin-left: -35px;
+  margin-top: 1.8em;
+}
+
+.div_login input[type="submit"]:hover{
+	background: #bb0001;
+	transition: .5s;
+}
+
+.div_cristal:hover{
+	transform: translate(10px, 10px);
+	box-shadow: 0 10px 20px rgba(0,0,0,.5);
+}
+
+.div_login:hover{
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0);
+	background: rgba(255,255,255,1);
+}

@@ -1,0 +1,273 @@
+*{
+	font-family: Montserrat;
+}
+
+body{
+	margin: 0;
+}
+
+
+.marco_portada{
+	position: fixed;
+	/* position: absolute; */
+	/* background: url('../img/img_verbena14.jpg'); */
+
+	background: url('../img/nave.svg');
+	/* background-color: rgb(148, 252, 43); */
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+  height: 20vh;
+	text-align: center;
+}
+
+.marco_portada h1{
+	color: white;
+	font-size: 6em;
+	margin-top: .1em;
+}
+
+
+.caja_fondo{
+  position: fixed;
+  float: left;
+  width: 15em;
+  height: 100vh;
+	top: 20%;
+}
+
+.izquierdo{
+  position: fixed;
+  float: left;
+  background-color: white;
+
+	/* background: url('../img/perfilfondo.svg'); */
+	/* background-color: rgb(103, 255, 214); */
+	background: url('../img/flamingo_aside.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+
+	transition: .5s;
+  width: 15em;
+  height: 100vh;
+  top: 19.75%;
+  /* box-shadow: 0px 0px 20px -6px black; */
+}
+
+
+.izquierdo nav{
+  margin-top: -15px;
+}
+
+/* MODIFICA EL ESPACIO DE LOS LI */
+.izquierdo li{
+  list-style: none;
+	margin: 0;
+
+	padding-top: .5em;
+  padding-bottom: .5em;
+
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-bottom: .2em;
+
+	margin-left: -2em;
+
+	margin-right: .5em;
+
+	/* border-color: rgb(92, 92, 92); */
+	/* border-radius: .5em; */
+
+	/* border-style: solid;
+	border-width:2px;
+	border-color: rgba(0,0,0,0);
+	border-top: none;
+	border-left: none;
+	border-right: none; */
+	/* para las lineas toquen el borde la pantalla */
+}
+
+/* .izquierdo li:nth-child(1), */
+.izquierdo li:first-child{
+	border-radius: .5em .5em 0 0;
+}
+
+/* .izquierdo li:nth-child(7), */
+.izquierdo li:last-child{
+	border-radius: 0 0 .5em .5em;
+
+}
+
+.izquierdo a:not(.cerrar){
+	color: white;
+	font-weight: bold;
+
+	/* text-shadow: # 0.1em 0.1em 0.2em; */
+}
+
+.izquierdo .label_img a{
+	color: white;
+	margin-left: -1px;
+	padding: 8px;
+	border-radius: .5em;
+	background-color: rgba(0,0,0,.8);
+}
+.izquierdo .label_img a:hover:not(.cerrar){
+	color: #A8E6CF;
+}
+.izquierdo a:hover:not(.cerrar){
+	color: #fed000;
+	font-weight: bold;
+}
+
+.izquierdo li:hover{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.izquierdo li:nth-child(1){
+	margin-top: 1em;
+}
+
+
+
+.caja_fondo .cerrar{
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 30%;
+	background-color: rgba(0,0,0,.8);
+	padding: 8px;
+	border-radius: .5em;
+	color: white;
+}
+
+.cerrar:hover{
+  color: #ff5833;
+}
+
+/* CAJA DE LA ESTADISTICA */
+.estadistica{
+  margin: auto;
+	margin-top: .5em;
+	/* margin-top: 1.2em; */
+	margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* NUMEROS OBTENIDOS DE LA BD */
+.estadistica .pestadistica{
+	font-size: 3em;
+	margin-top: -12px;
+	padding-top: 12px;
+	margin-bottom: -.6em;
+	color: #FFDAAB;
+	font-weight: bold;
+
+}
+
+/* ETIQUETA DEBAJO DE LA BD */
+.petiqueta{
+	/* padding-bottom: 9px; */
+	color: #e4fa83;
+	/* color: #5f8b7b; */
+	font-size: 13px;
+	padding-top: 5px;
+	margin-bottom: 8px;
+}
+
+.estadistica_cliente , .estadistica_colaboradores{
+	width: 115px;
+	/* border-style: solid;
+	border-width: 2px;
+	border-color: rgba(0,0,0,0); */
+
+	background-color: rgba(0,0,0,.5);
+
+	/* background-color: rgba(0,0,0,.2); */
+	/* border-color: rgb(0, 0, 0); */
+	top: -20%;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: .4em;
+}
+
+.estadistica_cliente{
+	border-left: none;
+	/* border-right: none; */
+	border-top: none;
+	border-bottom: none;
+
+	border-radius: .5em 0 0 .5em;
+	margin-left: 3px;
+	margin-right: 4px;
+}
+
+.estadistica_cliente_col{
+	width: 170.3px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(145, 145, 145);
+	top: -20%;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+.estadistica_cliente_col{
+	border-left: none;
+	border-right: none;
+}
+.estadistica_colaboradores{
+	/* border-left: none; */
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+
+	border-radius: 0 .5em .5em 0;
+}
+
+
+
+.izquierdo a{
+  text-decoration: none;
+  color: black;
+  padding-left: 2em;
+}
+
+.img_perfil{
+  background-image: url(../img/luis.jpg);
+  margin: auto;
+	margin-bottom: -2em;
+
+	border-style: solid;
+	border-width: .3em;
+	border-color: rgb(234, 72,99);
+
+
+	width: 120px;
+	height: 120px;
+	background-size: cover;
+	border-radius: 50%;
+	position: relative;
+	top: -3.3em;
+  /* box-shadow: 0px 0px 30px -6px black; */
+}
+
+/* .label_img{
+	color: black;
+	font-weight: bold;
+	/* margin-left: 20%;
+} */
+
+.usuario{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+.label_img{
+	margin-top: -1em;
+}

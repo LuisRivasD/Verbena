@@ -1,0 +1,130 @@
+
+*{
+	font-family: Montserrat;
+}
+
+body{
+	margin: 0;
+}
+
+.container-redes img{
+	width: 3em;
+	padding: 0 .2em;
+  color: rgb(90, 85, 238);
+}
+
+main{
+	width: 97%;
+  text-align: center;
+  padding: 20px;
+  padding-top: 37px;
+  position: relative;
+  /* background-image: url(../img/img_verbena3.jpg); */
+	background: url('../img/img_verbena7.jpg');
+  background-position: center;
+  background-size: cover;
+	background-attachment: fixed;
+  margin: auto;
+
+}
+
+.capa-black{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.h1{
+  position: relative;
+  color: white;
+	font-weight: bold; /*agrege esta linea*/
+}
+
+.parrafo1{
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  color: #c6c6c6;
+  font-weight: 250;
+  padding-bottom: 55px;
+}
+
+.container-testimonials{
+	width: 100%;
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: center;
+  position: relative;
+}
+
+.testimonial{
+	width: 300px;
+	margin: 20px;
+	background: #fff;
+	padding: 18px;
+	text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px 5px black;
+  margin-bottom: 5em;
+}
+
+.photo-perfil1, .photo-perfil2 ,.photo-perfil3,.photo-perfil4, .photo-perfil5 ,.photo-perfil6{
+	margin: auto;
+	width: 120px;
+	height: 120px;
+	background-size: cover;
+	border-radius: 50%;
+	position: relative;
+	top: -75px;
+  box-shadow: 0px 0px 30px -6px black;
+
+}
+
+.photo-perfil1{
+	background-image: url(../img/zaira.jpg);
+  /* background: url('../img/zaira.jpg'); */
+	/* background-position: center; */
+}
+.photo-perfil2{
+	background-image: url(../img/luis.jpg);
+}
+.photo-perfil3{
+	background-image: url(../img/zaira.jpg);
+}
+.photo-perfil4{
+  background-image: url(../img/luis.jpg);
+	/* background-position: center; */
+}
+.photo-perfil5{
+	background-image: url(../img/zaira.jpg);
+}
+.photo-perfil6{
+	background-image: url(../img/luis.jpg);
+}
+
+.testimonial h2{
+	margin-top: -40px;
+}
+
+.testimonial h4{
+	margin-top: 10px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.testimonial p{
+  margin-top: 10px;
+  font-weight: 300;
+  color: #7e7e7e;
+}
+
+@media screen and (max-width: 1250px) {
+  .testimonial{
+    margin-bottom: 5em;
+  }
+}

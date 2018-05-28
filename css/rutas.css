@@ -1,0 +1,132 @@
+
+*{
+	font-family: Montserrat;
+}
+
+body{
+	margin: 0;
+}
+
+.seccion_1{
+	background: url('../img/img_ruta.jpg');
+	background-attachment: fixed;
+	padding: 50px 100px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 100vh;
+}
+
+.seccion_1 img{
+	width: 30em;
+	margin-top: 10%;
+}
+
+.seccion_2{
+	background: url('../img/img_ruta2.jpg');
+	background-attachment: fixed;
+	padding: 50px 100px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 665px;
+}
+
+.contenedorRuta{
+	margin-top: 4em;
+}
+.tablaRutas{
+	position:relative;
+	overflow: scroll;
+	height: 30em;
+	width: 25em; /*cambie esto para eliminar el espacio en blanco*/
+}
+
+.fondotablaRutas{
+	position: absolute;
+	background-color: white;
+	padding: 1em;
+	border-radius: .5em;
+}
+.tabla_rutas td, .tabla_rutas th{
+    border: 1px solid #ddd;
+    /* padding: 2px; */
+}
+.tabla_rutas th:nth-child(1){
+	background-color: #FF9E99;
+	width: 15em;
+	/* background-color: #DDFFAB; */
+}
+.tabla_rutas th:nth-child(2){
+	background-color: #DDFFAB;
+	width: 5em;
+}
+
+.tabla_rutas th:nth-child(3){
+	background-color: #ABE4FF;
+	width: 10em;
+}
+.tabla_rutas th:nth-child(4){
+	background-color: #FFDAAB;
+	width: 10em;
+}
+.tabla_rutas th:nth-child(5){
+	background-color: #D9ABFF;
+	width: 8em;
+}
+.tabla_rutas tr:hover{
+	background-color: #e7e7e7;
+	width: 8em;
+	/* background-color: #FF9E99; */
+}
+
+.nomCalle{
+	font-size: 14px;
+}
+	.tabla_rutas th {
+    padding: 12px;
+	}
+
+.tablaRutas, .mapa{
+	float: left;
+}
+
+.datos_ruta{
+	background-color: white;
+	border-radius: .5em;
+	height: 6em;
+	margin-left: 30em;
+	padding: .5em;
+}
+.google_maps{
+	background-color: white;
+	padding: .8em .8em .5em .8em;
+	border-radius: .5em;
+	margin-top: .9em;
+	margin-left: 30em;
+}
+
+.google_maps iframe{
+	width: 650px;
+	height: 377px;
+}
+
+.btn_ruta{
+	background-color: #f0e00d;
+	padding: 10px;
+	margin: 0;
+	height: 20%;
+	border: none;
+	border-bottom: solid #b4a80a .2rem;
+	transition: all .5s;
+	color: rgba(#13cb74, 0.20);
+	outline: none;
+	border-radius: 6px;
+	font-weight: bold;
+
+}
+
+.btn_ruta:hover{
+	background-color: #c7ba0a;
+	border-bottom: solid #918807 .2rem;
+}

@@ -1,0 +1,94 @@
+*{
+	font-family: Montserrat;
+}
+
+body{
+	margin: 0;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+ul.menu_ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul.menu_ul li{
+	float: left;
+	}
+
+ul.menu_ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 26px;
+	text-decoration: none;
+}
+
+ul.menu_ul li a:hover:not(.verbena){
+	background-color: #111;
+}
+
+ul.menu_ul li a.verbena:hover{
+	color: #ffffff;
+}
+
+ul.menu_ul li a.verbena{
+	position: relative;
+	color: #ffffff;
+	background-color: rgba(0,0,0, 0.8);
+	padding-left: 7em;
+	padding-right: 7em;
+
+}
+
+#btn{
+	margin-left: 1.5em;
+}
+
+#btn_icon{
+	margin-right: 1em;
+}
+
+.img_menu:hover{
+	background-color: #111;
+}
+
+@media screen and (max-width: 1120px){
+	/*= CONFIG. DEL HEADER CUANDO SCREEN < 1120px =*/
+	ul.menu_ul li.right,	ul.menu_ul li{  /*Tag li de la clase right que pertenece al tag ul del menu_ul , Resto de tag li que pertenecen al menu_ul, */
+		float: none;                        /*Quita la propiedad de flotado a los elementos.*/
+	}
+	ul.menu_ul li.right,	ul.menu_ul li button{
+		margin-top: -.4em;
+		margin-bottom: -.4em;
+	}
+}
+
+@media screen and (max-width: 767px){
+	#btn_icon{
+		padding-top: .6em;
+		padding-bottom: .6em;
+		margin-right: 0;
+	}
+
+	.hover:hover{
+		background-color: #111;
+	}
+	
+}
+
+@media screen and (max-width: 550px){
+		ul.menu_ul li a.verbena{
+			padding-left:  0;
+			padding-right: 0;
+		}
+
+}

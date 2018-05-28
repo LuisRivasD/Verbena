@@ -1,0 +1,375 @@
+
+*{
+	font-family: Montserrat;
+}
+
+body{
+	margin: 0;
+}
+
+/*Estilo de index*/
+.seccion_1{
+  /* background: url('../img/img_verbena1.jpg'); */
+	background: url('../img/img_verbena20.jpg');
+	background-attachment: fixed;
+	padding: 50px 100px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	/* height: 662px;
+	width: 100%; */
+	height: 100vh;
+
+
+	/* height: 100vh; */
+	/* width: 100%; */
+	/* max-width: 71.80em; */
+	/* max-width: 90em; */
+}
+
+.seccion_1Fondo{
+}
+
+.seccion_1Marco{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	width: 50%;
+	/* margin-left: -20em; */
+	margin-left: -25%;
+	margin-top: -7.5em;
+	height: 15em;
+	border-radius: 2em;
+}
+.seccion_1Marco p{
+	margin-top: 0;
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.seccion_1Marco img{
+	margin-top: 2em;
+	width: 80%;
+}
+
+.seccion_1Marco i{
+	font-size: 2rem;
+	font-weight: 400;
+	color: #fff;
+	font-style: normal;
+	font-family: FontAwesome;
+}
+
+
+
+
+.seccion_1News i{
+	font-size: 2rem;
+	font-weight: 400;
+	color: #fff;
+	font-style: normal;
+	font-family: FontAwesome;
+	float: left;
+	margin-top: 22px;
+	margin-left: 20px;
+}
+
+.seccion_1News{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	border-radius: 1em;
+	top: 80%;
+	left:80%;
+	width: 15em;
+	height: 4.5em;
+	color: white;
+	/* float: left; */
+	/* font-weight: bold; */
+}
+.seccion_1News p{
+	font-weight: bold;
+	padding-top: .6em;
+	margin-bottom: 0px;
+}
+
+.seccion_1News a{
+	/* text-decoration: none; */
+	color: white;
+}
+
+.seccion_1News a:hover{
+	color: rgb(21, 232, 252);
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.seccion_2{
+  background: url('../img/img_verbena16.jpg');
+	background-attachment: fixed;
+	padding: 50px 100px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	/* height: 662px; */
+	/* height: 100vh; */
+	height: 690px;
+	width: 100%;
+	/* max-width: 71.80em; */
+}
+
+.general{
+	/* display: flex;
+	flex-wrap: wrap; */
+	/* position: absolute; */
+}
+
+.infografia{
+	width: 25em;
+	height: 35em;
+	margin-top: 4%;
+	margin-left: -3em;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 1em;
+	float: left;
+}
+
+.infografia img{
+	width: 20em;
+	padding-top: 2em;
+}
+
+
+/* .galeria .presentacion{
+	float: left;
+	left: 0;
+} */
+
+.seccion_3{
+  background: url('../img/img_verbena23.jpg');
+	background-attachment: fixed;
+	padding: 50px 100px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 690px;
+	width: 100%;
+}
+
+.contenedorImg{
+	width: 100%;
+	height: 40.5em;
+	border-radius: 1em;
+
+}
+
+.imgInsta{
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -1.7em;
+}
+
+.headImg p{
+	/* color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px; */
+	color: white;
+	font-size: 4em;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.headImg{
+	/* background-color: rgba(0, 0, 0, 0.5); */
+	border-radius: .5em;
+	width: 15em;
+	margin-left: 40%;
+	/* margin-top: 4%; */
+}
+
+.cuadroInsta img{
+	margin-left: 20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 5px;
+	background-color: white;
+	margin-bottom: 1em;
+	padding: 5px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.cuadroInsta img:hover{
+	transform: scaleX(1.1) scaleY(1.1);
+}
+
+
+
+/* PANEL ELIMINADO */
+
+.panel_lateral_index .menu{
+	width: 2.4rem;
+	height: 2.5rem;
+	background: #161717;
+	border-radius: 0.5rem 0 0 0.5rem;
+	top: 14.4em;
+	/* top: 70%; */
+	right: 0%;
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+	transition: right 0.7s;
+	position: fixed;
+	z-index: 100;
+}
+
+.menu img{
+	width: .8em;
+	padding-bottom: 2.5px;
+	padding-top: -20px;
+	/* Agrege esto para acomodar el toggle al centro */
+}
+
+.panel_lateral_index .checkbox:checked ~ .menu{
+	right: 15%;
+	border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.panel_lateral_index .left-panel {
+	height: 100% !important;
+	width: 100% !important;
+	max-height: 10em;
+	max-width: 12.7em;
+	background-color: #161717;
+	position: fixed;
+  z-index: 100;
+	top: 27.2em;
+	right: -40%;
+	display: flex;
+	justify-content: center;
+	transition: right 0.5s;
+	border-radius: 0.7rem 0 0 0.7rem;
+}
+
+/* .left-panel h4{
+	color: white;
+} */
+
+.left-panel p{
+	color: white;
+}
+
+.panel_lateral_index .checkbox:checked ~ .left-panel{
+	right: 0;
+}
+
+
+.checkbox{
+	display: none;
+}
+
+.left-panel ul a{
+	color: #F7F7E7;
+	text-decoration: none;
+}
+
+.left-panel li{
+	border-style: dotted;
+	border-width: 1px;
+	border-color: white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	list-style: none;
+	font-size: 15px;
+	text-align: left;
+	padding: 15px 5.5em 13px 5px;
+	margin-left: -2.7rem;
+}
+
+.left-panel li:hover{
+	border-color: rgb(120, 120, 120);
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 29.6%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    }
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    }
+
+
+/*Estilo de cartelera.html*/
+@media screen and (max-width: 1120px){
+	.cuadroInsta img{
+		width: 90px;
+		height: 90px;
+	}
+}
+
+/*==============================
+  =    CONFIG. SMART LARGE    =
+  ==============================*/
+@media screen and (max-width: 720px){
+/*= CONFIG. DIV GOOGLE-MAPS CUANDO SCREEN < 720=*/
+	.google-maps {
+		padding-bottom: 45%; // This is the aspect ratio
+	}
+/*= FIN CONFIG. DIV GOOGLE MAPS =*/
+
+.cuadroInsta img{
+	width: 70px;
+	height: 70px;
+}
+
+}
+
+/*==============================
+  =    CONFIG. SMART MEDIUM    =
+  ==============================*/
+@media screen and (max-width: 480px){
+
+/*= CONFIG. DIV GOOGLE-MAPS CUANDO SCREEN < 480=*/
+	.google-maps {
+		padding-bottom: 75%; // This is the aspect ratio
+	}
+/*= FIN CONFIG. DIV GOOGLE MAPS =*/
+}
+
+/*==============================
+  =    CONFIG. SMART SMALL    =
+  ==============================*/
+@media screen and (max-width: 360px){
+/*= CONFIG. DIV GOOGLE-MAPS CUANDO SCREEN < 360=*/
+	.google-maps {
+		padding-bottom: 85%; // This is the aspect ratio
+	}
+/*= FIN CONFIG. DIV GOOGLE MAPS =*/
+.cuadroInsta img{
+	width: 50px;
+	height: 50px;
+}
+
+}
+
+/*==============================
+  = CONFIG. SMART EXTRA SMALL  =
+  ==============================*/
+@media screen and (max-width: 320px){
+
+}

@@ -1,0 +1,143 @@
+*{
+	font-family: Montserrat;
+}
+
+body{
+	margin: 0;
+	background: url('../img/img_verbena6.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-align: justify;
+	height: 100vh;
+}
+
+.label_uno i{
+	font-size: 1.2rem;
+	color: #000000;
+	font-style: normal;
+	font-family: FontAwesome;
+}
+
+.formulario .input_box label{
+  position: relative;
+  background-color: rgb(249, 244, 129);
+  border-radius: .5em;
+  font-weight: 500;
+  margin-right: .3em;
+	margin-left: .8em;
+}
+
+.input_box:nth-child(1) input{
+  width: 92%;
+}
+
+.label_uno{
+	padding-top: 3px;
+	padding-left: 8px;
+	padding-right:8px;
+	padding-bottom: 3px;
+}
+
+.formulario input[type="text"]{
+  position: relative;
+  margin-top: 1em;
+
+  border: none;
+  border-radius: .5em;
+	outline: none;
+	height: 40px;
+	color: #262626;
+  background-color: rgba(79, 79, 79, 0.20);
+
+	font-size: 16px;
+	padding-left: 30px;
+
+}
+
+.formulario input[type="text"]{
+  padding-right: 20px;
+}
+
+
+.btn-enviar{
+	background-color: #13cb74;
+  padding: 6px;
+  margin: -2.3px;
+  height: 100%;
+	max-height: 5em;
+  border: none;
+  border-bottom: solid #00a633 .2rem;
+  transition: all .5s;
+  width: 100%;
+  max-width: 105px;
+  color: rgba(#13cb74, 0.20);
+	outline: none;
+  border-radius: 6px;
+  font-weight: bold;
+	font-size: 15px;
+}
+
+.btn-cancelar{
+	background-color: #d42823;
+  padding: 6px;
+  margin: -2.3px;
+	height: 100%;
+	max-height: 5em;
+  border: none;
+  border-bottom: solid #be1700 .2rem;
+  transition: all .5s;
+  width: 100%;
+  max-width: 105px;
+  color: rgba(#d42823, 0.20);
+	outline: none;
+  border-radius: 6px;
+  font-weight: bold;
+	margin-left: 15px;
+	font-size: 15px;
+}
+.btn-enviar:hover{
+	background-color: #0fa25c;
+	border-bottom: solid #05822b .2rem;
+}
+.btn-cancelar:hover{
+	background-color: #c1110c;
+	border-bottom: solid #931200 .2rem;
+}
+
+.input_box{
+	background-color: white;
+	margin-bottom: -1em;
+	padding-bottom: .8em;
+}
+
+.input_btm_box{
+	background-color: white;
+	margin-top: -1em;
+
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.fondo_resena{
+}
+
+.editor_texto_resena{
+	position: absolute;
+	top: 15%;
+	left: 20.5%;
+	/* width: 80%; */
+	/* border-style: solid;
+	border-width: 1px;
+	border-color: rgb(92, 92, 92); */
+}
+
+
+.form-group{
+	background-color: white;
+	width: 65em;
+	/* width: 65em; */
+	/* height: 20em */
+	/* left: 40%; */
+}

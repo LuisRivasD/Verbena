@@ -1,0 +1,233 @@
+*{
+	font-family: Montserrat;
+}
+
+body{
+	margin: 0;
+}
+
+.btn-enviar{
+	background-color: #13cb74;
+  padding: 10px;
+  margin: -2.3px;
+  height: 20%;
+  border: none;
+  border-bottom: solid #00a633 .2rem;
+  transition: all .5s;
+  width: 100%;
+  max-width: 110px;
+  color: rgba(#13cb74, 0.20);
+	outline: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn-enviar, .btn-cancelar{
+  position: relative;
+  margin-top: 2em;
+  /* margin-bottom: -.5em; */
+  left: 30%;
+}
+
+.btn-cancelar{
+	background-color: #d42823;
+  padding: 10px;
+  margin: -2.3px;
+  height: 20%;
+  border: none;
+  border-bottom: solid #be1700 .2rem;
+  transition: all .5s;
+  width: 100%;
+  max-width: 110px;
+  color: rgba(#d42823, 0.20);
+	outline: none;
+  border-radius: 6px;
+  font-weight: bold;
+	margin-left: 20px;
+}
+.btn-enviar:hover{
+	background-color: #0fa25c;
+	border-bottom: solid #05822b .2rem;
+}
+.btn-cancelar:hover{
+	background-color: #c1110c;
+	border-bottom: solid #931200 .2rem;
+}
+
+.fondo_agrega_evento{
+  background: url('../img/img_verbena6.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-align: justify;
+	height: 100vh;
+}
+
+i{
+	font-size: 1.5rem;
+	color: #000000;
+	font-style: normal;
+	font-family: FontAwesome;
+}
+
+.contenedor_form_evento{
+	position: absolute;
+  top: 28%;
+  left: 32%;
+	width: 45em;
+  height: 22em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1em;
+  padding: 2em;
+}
+
+.formulario input[type="text"],
+.formulario input[type="date"],
+.formulario input[type="time"]{
+  position: relative;
+  margin-top: 1em;
+
+  border: none;
+  border-radius: .5em;
+	outline: none;
+	height: 40px;
+	color: #262626;
+  background-color: rgba(79, 79, 79, 0.20);
+
+	font-size: 16px;
+	padding-left: 30px;
+
+}
+
+.formulario input[type="text"]{
+  padding-right: 20px;
+}
+
+.formulario input[type="date"],
+.formulario input[type="time"]{
+  color: rgb(110, 110, 110);
+}
+
+.formulario .input_box label{
+  position: relative;
+  background-color: rgb(249, 244, 129);
+  border-radius: .5em;
+  font-weight: 500;
+}
+
+.formulario .input_box:nth-child(1) label{
+	margin-right: .3em;
+}
+
+.formulario .input_box:nth-child(2) label{
+	margin-right: .3em;
+}
+
+.formulario .input_box:nth-child(3) label{
+	margin-right: .3em;
+}
+
+
+.label_uno,.label_tres,.label_cuatro{
+	padding-top: 13px;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-bottom: 11px;
+}
+
+.label_dos{
+	padding-top: 13px;
+	padding-left: 14px;
+	padding-right:15px;
+	padding-bottom: 11px;
+}
+
+.label_cinco,.label_seis{
+	padding-top: 13px;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-bottom: 11px;
+}
+
+.label_siete,.label_ocho{
+	padding-top: 13px;
+	padding-left: 9px;
+	padding-right:7px;
+	padding-bottom: 11px;
+}
+
+.label_nueve{
+	padding-top: 13px;
+	padding-left: 9px;
+	padding-right:8px;
+	padding-bottom: 11px;
+}
+
+.label_cuatro{
+	margin-right: .4em;
+}
+
+.label_siete,.label_ocho, .label_nueve{
+	margin-right: .4em;
+}
+.label_cinco i{
+}
+
+/* .input_box:nth-child(1) input,.input_box:nth-child(3) input{
+  width: 84%;
+} */
+
+.input_box:nth-child(1) input{
+	  width: 84%;
+}
+
+.input_box:nth-child(2) input{
+	margin-right: .8em;
+}
+
+.input_box:nth-child(2) input{
+  width: 33.4%;
+}
+
+.input_box:nth-child(3) input{
+	margin-right: .8em;
+}
+
+.input_box:nth-child(3) input{
+	width: 20%;
+}
+
+.input_box:nth-child(5) input{
+	margin-top: 1.2em;
+	width: 84%;
+}
+
+.input_box:nth-child(4) select{
+	margin-top: 1em;
+	margin-right: .8em;
+	width: 40.5%;
+	padding-top: 12px;
+	padding-bottom: 11px;
+	border-radius: .5em;
+	outline: none;
+	border: none;
+	background-color: rgba(79, 79, 79, 0.20);
+	/* color: rgb(110, 110, 110); */
+	font-size: 16px;
+	padding-left: 30px;
+}
+.input_box:nth-child(4) select:focus{
+	/* border-bottom: : solid #00a633 .2rem; */
+	border-radius: .5em .5em .0em 0;
+}
+
+.categoria option:nth-child(1),.clasificación option:nth-child(1){
+	background-color: rgb(80, 80, 80);
+	color: white;
+	font-weight: 400;
+}
+
+
+.formulario input[type="date"]{
+  font-size: 14px;
+}
